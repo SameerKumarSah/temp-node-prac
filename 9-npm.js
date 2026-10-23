@@ -14,8 +14,12 @@
 //npm init -y (everything default)
 
 
+//uninstall the package
+//npm uninstall <packageName>
+
 const _ =require('lodash');
 
 const items = [1,[2,[3,[4]]]];
 const newitems= _.flattenDeep(items)
 console.log(newitems);
+console.log('hello')
